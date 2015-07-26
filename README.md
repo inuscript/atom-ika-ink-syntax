@@ -1,10 +1,11 @@
-# ika-syntax theme
+# Ika(squid) ink syntax theme
 
-Ink color theme (Beta)
+Ika ink color theme (Beta)
 
-Syntax based [monokai](https://github.com/kevinsawicki/monokai)
+This syntax forked from [monokai](https://github.com/kevinsawicki/monokai)
 
 ## known issue
 * `ink-blue` color is may not easy to read.
+* More nice screenshot
 
-<!-- ![A screenshot of your theme](https://f.cloud.github.com/assets/69169/2289498/4c3cb0ec-a009-11e3-8dbd-077ee11741e5.gif) -->
+## screenshot
