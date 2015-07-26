@@ -102,9 +102,12 @@ atom-text-editor, :host {
 }
 
 .constant.character,
-.constant.escape,
 .constant.other {
   color: @color5;
+}
+
+.constant.escape{
+  color: @color6;  
 }
 
 .keyword {
@@ -118,16 +121,13 @@ atom-text-editor, :host {
 .keyword.operator.punctuation{
   color: @color6;  //#FFFFFF;
 }
-.punctuation.terminator{
-  color: @color6;
-}
+
 .punctuation.separator.other {
   color: @color6;
 }
 .storage {
   color: @color4;
 }
-
 .storage.type {
   font-style: italic;
   color: @color3;
