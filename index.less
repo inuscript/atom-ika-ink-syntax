@@ -157,12 +157,14 @@ atom-text-editor, :host {
 .entity.name.instance {
   color: @color3;
 }
-
 .variable.parameter {
   font-style: italic;
   color: @color5; // @color6;
 }
 
+.variable.other{
+  color: @color5;
+}
 .entity.name.tag {
   color: @color4;
 }
@@ -183,8 +185,12 @@ atom-text-editor, :host {
   color: @color3;
 }
 
-.support.type,
-.support.class {
+.support.type{
+  font-style: italic;
+  color: @color2;
+}
+.support.other,
+.support.class{
   font-style: italic;
   color: @color3;
 }
@@ -204,6 +210,8 @@ atom-text-editor, :host {
   color: @color5;
 }
 
+// 'self' Python
+.variable.language.python,
 // 'this' Javascript
 .variable.language.js {
   color: @color4;
