@@ -109,6 +109,10 @@ atom-text-editor, :host {
   color: @variable;
 }
 
+.variable.punctuation.separator{
+  color: @keyword;
+}
+
 .constant.numeric {
   color: @constant;
 }
@@ -133,14 +137,6 @@ atom-text-editor, :host {
 .keyword.operator.bracket,
 .keyword.operator.punctuation{
   color: @escape;  //#FFFFFF;
-}
-
-.punctuation.separator.other {
-  color: @escape;
-}
-
-.punctuation.separator.variable{
-  color: @keyword;
 }
 
 .storage {
