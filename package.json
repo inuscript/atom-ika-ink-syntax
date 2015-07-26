@@ -1,12 +1,15 @@
 {
-  "name": "monokai",
+  "name": "ika-syntax",
   "theme": "syntax",
-  "version": "0.15.0",
-  "private": true,
-  "description": "A monokai theme",
-  "repository": "https://github.com/kevinsawicki/monokai",
+  "version": "0.0.0",
+  "description": "A short description of your syntax theme",
+  "keywords": [
+    "syntax",
+    "theme"
+  ],
+  "repository": "https://github.com/inuscript/ika-syntax",
   "license": "MIT",
   "engines": {
-    "atom": ">0.39.0"
+    "atom": ">=1.0.0 <2.0.0"
   }
 }

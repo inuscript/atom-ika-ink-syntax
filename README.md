@@ -1,8 +1,9 @@
-# Monokai theme
+# ika-syntax theme
 
-A monokai syntax theme for Atom.
+Ink color theme (Beta)
+Syntax based [monokai](https://github.com/kevinsawicki/monokai)
 
-Originally converted from the [TextMate](http://www.monokai.nl/blog/wp-content/asdev/Monokai.tmTheme)
-theme using the [TextMate bundle converter](http://atom.io/docs/latest/converting-a-text-mate-theme).
+## known issue
+* Blue color is NOT easy to read.
 
-![](https://f.cloud.github.com/assets/671378/2265671/d02ebee8-9e85-11e3-9b8c-12b2cb7015e3.png)
+<!-- ![A screenshot of your theme](https://f.cloud.github.com/assets/69169/2289498/4c3cb0ec-a009-11e3-8dbd-077ee11741e5.gif) -->
