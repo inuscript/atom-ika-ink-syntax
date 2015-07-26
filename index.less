@@ -93,6 +93,7 @@ atom-text-editor, :host {
 @support: @color3;
 @keyword: @color4;
 @variable: @color5;
+@constant: @color5;
 @escape: @color6;
 @invalid: #F8F8F0;
 
@@ -104,17 +105,21 @@ atom-text-editor, :host {
   color: @string;
 }
 
-.constant.numeric {
+.variable{
   color: @variable;
 }
 
+.constant.numeric {
+  color: @constant;
+}
+
 .constant.language {
-  color: @variable;
+  color: @constant;
 }
 
 .constant.character,
 .constant.other {
-  color: @variable;
+  color: @constant;
 }
 
 .constant.escape{
