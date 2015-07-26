@@ -7,7 +7,7 @@
     "syntax",
     "theme"
   ],
-  "repository": "https://github.com/inuscript/atom-ika-inksyntax",
+  "repository": "https://github.com/inuscript/atom-ika-ink-syntax",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
