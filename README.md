@@ -1,6 +1,6 @@
-# Ika(squid) ink syntax theme
+# Ika ink syntax theme
 
-Ika ink color theme (Beta)
+Ika(Squid) ink color theme (Beta)
 
 This syntax forked from [monokai](https://github.com/kevinsawicki/monokai)
 
@@ -9,3 +9,4 @@ This syntax forked from [monokai](https://github.com/kevinsawicki/monokai)
 * More nice screenshot
 
 ## screenshot
+![screenshot](https://raw.githubusercontent.com/inuscript/atom-ika-ink-syntax/master/screenshot.png)

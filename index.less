@@ -109,17 +109,21 @@ atom-text-editor, :host {
 
 .keyword {
   color: @color4;
-  &.unit{
-    color: @color6;
-  }
+  // &.unit{
+  //   color: @color6;
+  // }
 }
 
 .keyword.operator.bracket,
 .keyword.operator.punctuation{
   color: @color6;  //#FFFFFF;
 }
-
-
+.punctuation.terminator{
+  color: @color6;
+}
+.punctuation.separator.other {
+  color: @color6;
+}
 .storage {
   color: @color4;
 }
