@@ -2,12 +2,12 @@
   "name": "ika-ink-syntax",
   "theme": "syntax",
   "version": "0.15.1",
-  "description": "A short description of your syntax theme",
+  "description": "Squid ink color inspired theme",
   "keywords": [
     "syntax",
     "theme"
   ],
-  "repository": "https://github.com/inuscript/ika-syntax",
+  "repository": "https://github.com/inuscript/atom-ika-inksyntax",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
