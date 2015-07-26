@@ -85,63 +85,70 @@ atom-text-editor, :host {
   }
 }
 
+@comment: #75715E;
+@methods: @color1;
+@string: @color2;
+@type: @color3;
+@instance: @color3;
+@support: @color3;
+@keyword: @color4;
+@variable: @color5;
+@escape: @color6;
+@invalid: #F8F8F0;
 .comment {
-  color: #75715E;
+  color: @comment;
 }
 
 .string {
-  color: @color2;
+  color: @string;
 }
 
 .constant.numeric {
-  color: @color5;
+  color: @variable;
 }
 
 .constant.language {
-  color: @color5;
+  color: @variable;
 }
 
 .constant.character,
 .constant.other {
-  color: @color5;
+  color: @variable;
 }
 
 .constant.escape{
-  color: @color6;  
+  color: @escape;
 }
 
 .keyword {
-  color: @color4;
-  // &.unit{
-  //   color: @color6;
-  // }
+  color: @keyword;
 }
 
 .keyword.operator.bracket,
 .keyword.operator.punctuation{
-  color: @color6;  //#FFFFFF;
+  color: @escape;  //#FFFFFF;
 }
 
 .punctuation.separator.other {
-  color: @color6;
+  color: @escape;
 }
 .storage {
-  color: @color4;
+  color: @keyword;
 }
 .storage.type {
   font-style: italic;
-  color: @color3;
+  color: @type;
 }
 
 .entity.name.class {
   text-decoration: none;
-  color: @color1;
+  color: @methods;
 }
 
 .entity.other.inherited-class {
   font-style: italic;
   text-decoration: none;
-  color: @color1;
+  color: @methods;
 }
 
 // Prevent underlines from making their way into whitespace elements
@@ -151,68 +158,68 @@ atom-text-editor, :host {
 }
 
 .entity.name.function {
-  color: @color1;
+  color: @methods;
 }
 
 .entity.name.instance {
-  color: @color3;
+  color: @instance;
 }
 .variable.parameter {
   font-style: italic;
-  color: @color5; // @color6;
+  color: @variable; // @color6;
 }
 
 .variable.other{
-  color: @color5;
+  color: @variable;
 }
 .entity.name.tag {
-  color: @color4;
+  color: @keyword;
 }
 
 .entity.other.attribute-name {
-  color: @color1;
+  color: @methods;
 }
 
 .support.function {
-  color: @color3;
+  color: @support;
 }
 
 .support.function.decl {
-  color: @color1;
+  color: @methods;
 }
 
 .support.constant {
-  color: @color3;
+  color: @support;
 }
 
 .support.type{
   font-style: italic;
-  color: @color2;
+  color: @string;
 }
 .support.other,
 .support.class{
   font-style: italic;
-  color: @color3;
+  color: @support;
 }
 
 .invalid {
-  color: #F8F8F0;
+  color: @invalid;
   background-color: @color4;
 }
 
 .invalid.deprecated {
-  color: #F8F8F0;
-  background-color: @color5;
+  color: @invalid;
+  background-color: @color2;
 }
 
 // Jade syntax
 .class.jade {
-  color: @color5;
+  color: @variable;
 }
 
 // 'self' Python
 .variable.language.python,
 // 'this' Javascript
 .variable.language.js {
-  color: @color4;
+  color: @keyword;
 }
