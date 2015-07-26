@@ -76,7 +76,7 @@ atom-text-editor, :host {
     }
 
     .link {
-      color: #CCC;
+      color: @color6; // s#CCC;
 
       .entity {
         color: @color5;
@@ -109,13 +109,16 @@ atom-text-editor, :host {
 
 .keyword {
   color: @color4;
+  &.unit{
+    color: @color6;
+  }
 }
 
 .keyword.operator.bracket,
-.keyword.operator.punctuation,
- {
-  color: #FFFFFF;
+.keyword.operator.punctuation{
+  color: @color6;  //#FFFFFF;
 }
+
 
 .storage {
   color: @color4;
@@ -153,7 +156,7 @@ atom-text-editor, :host {
 
 .variable.parameter {
   font-style: italic;
-  color: @color6;
+  color: @color5; // @color6;
 }
 
 .entity.name.tag {
