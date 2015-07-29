@@ -9,4 +9,5 @@ This syntax forked from [monokai](https://github.com/kevinsawicki/monokai)
 * More nice screenshot
 
 ## screenshot
+TBD
 <!-- ![screenshot](https://raw.githubusercontent.com/inuscript/atom-ika-ink-syntax/master/screenshot.png) -->
